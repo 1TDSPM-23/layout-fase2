@@ -5,12 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Layout Básico</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <style>
+      /*
+        Este é um comentario em Css
+      */
+      /* h1 {
+        color: red;
+      }
+      h2 {
+        color: green;
+      } */
+      /* section > h2 {
+        color: red;
+      } */
+      /* Multipla seleção */
+
+      /* h1,
+      li {
+        color: blue;
+      } */
+      /* #meu-titulo {
+        color: blue;
+        text-align: center;
+        font-family: "Trebuchet MS";
+      } */
+
+      /* Usando Seletor class pouco especifico */
+      /* .texto-formatado {
+        color: red;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-family: "Trebuchet MS";
+        text-shadow: 2px 2px 2px blue;
+      }
+      /* Usando o Seletor class muito especifico */
+      /* h3.texto-formatado {
+        background-color: bisque;
+        text-align: center;
+      }  */
+    </style>
   </head>
 
   <body>
     <header>
-      <h1>Meu Site</h1>
-
+      <!-- <h1 style="color: red; background: #d9d9d9">MEU SITE</h1> -->
+      <h1 id="meu-titulo">MEU SITE</h1>
       <nav>
         <div>
           <ul>
@@ -24,14 +65,32 @@
 
     <div>
       <section id="sobre">
-        <h2>Sobre</h2>
+        <h2 class="texto-formatado">Sobre</h2>
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi a iste
           placeat? Mollitia eius nisi maxime veritatis, sint tempora excepturi
           nihil autem cum suscipit maiores odit, optio neque corporis
           exercitationem?
         </p>
+        <h2>Mais</h2>
+        <p class="texto-formatado">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi a iste
+          placeat? Mollitia eius nisi maxime veritatis, sint tempora excepturi
+          nihil autem cum suscipit maiores odit, optio neque corporis
+          exercitationem?
+        </p>
       </section>
+      <h2 class="texto-formatado">Teste</h2>
     </div>
+    <section>
+      <h3 class="texto-formatado">TESTe</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
+        odio temporibus quaerat nisi, maxime minima fugiat corrupti nostrum
+        laboriosam similique possimus natus perferendis reprehenderit, tenetur
+        repudiandae, praesentium dolor aliquam? Omnis perferendis illum nesciunt
+        quaerat at corporis excepturi deleniti et aspernatur.
+      </p>
+    </section>
   </body>
 </html>
