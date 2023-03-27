@@ -5,13 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Básico</title>
+
+    <link rel="stylesheet" href="./CSS/estilo.css">
+
+<style>
+    /*
+        Este é um comentario em  codigo css!
+
+        para iniciar o t necessitamos utilizar seletores!
+    */
+    /*esse tipo de seleção é em cascata
+    h1{
+        color: yellow;
+    }
+    h2{
+        color: green;
+    }
+    */
+    /* seleção hierarquica! 
+    section > h2{
+    color : red;
+    }*/
+    
+    /* seletores especiais 
+    ID = utilizamos o hastag ou cerquilha (#) para indentificar este tipo de seletor
+    */
+    /* #meu-titulo{
+        color:blueviolet;
+        text-align: center;
+        font-family: 'Trebuchet MS';
+    } */
+    /*utilizando o class como indentificador e seletor*/
+    /*utilizando o seletor class e sendo pouco especifico*/
+    /* .texto-formatado{
+        color: red;
+        font-weight: bold;
+        letter-spacing: 5px;
+    } */
+    /*utilizando o seletor class e sendo muito especifico*/
+    /* h3.texto-formatado{
+        background-color: aquamarine;
+        text-align: center;
+    } */
+
+</style>
+
 </head>
 
 <body>
 
     <header>
 
-      <h1 style="color:red;background: #D9D9D9;" >MEU SITE</h1>
+      <!-- <h1 style="color:red;background: #D9D9D9;" >MEU SITE</h1> -->
+      <h1 id= "meu titutlo"> MEU SITE</h1>
     
         <nav>
             <ul>
