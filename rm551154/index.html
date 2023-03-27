@@ -6,6 +6,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Básico</title>
+
+    <link rel="stylesheet" href="./CSS/estilo.css">
+
+    <!-- <style>
+        /* Esse tipo de seleção é de cascata!  */
+        /* h1 {
+            color: red;
+        }
+        h2 {
+            color: green;
+        } */
+
+        section > h2 {
+            color: red;
+        }
+
+        h1, li {
+            color: blue;
+        }
+
+        /* Seletores especiais:
+
+            ID = utilizamos a tag hashtag (#) para identificar esse tipo de seleto
+        */
+        #meu-titulo {
+            color: blue;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        /* classe = utilizamos o ponto (.) para identificar esse tipo de seletor*/
+
+        /* utilizando o seletor e sendo pouco específico */
+        .texto-formatado {
+            color: red;
+            font-weight: bold;
+            letter-spacing: 5px;
+            font-family: Helvetica;
+        }
+        
+        /* utilizando o seletor e sendo muito específico */
+        h3.texto-formatado {
+            background-color: bisque;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    </style> -->
+
 </head>
 
 <body>
@@ -26,9 +74,30 @@
     </header>
 
     <section id="sobre">
-        <h2>Sobre</h2>
-        
+        <h2 class="texto-formatado">Sobre</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias praesentium earum molestias quidem veritatis minima ipsam qui esse assumenda. Tempora, necessitatibus quisquam soluta hic nesciunt blanditiis natus veniam tempore reprehenderit.
+        </p>
+        <h2>Mais</h2>
+        <p class="texto-formatado">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptatum perspiciatis ipsam adipisci unde consequatur corrupti accusamus voluptas, eos, facere distinctio nobis aliquam sequi. Sequi illo enim facere et magnam.
+        </p>
+        <div>
+            <h2>Estou na div</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, aut eos eaque iure, aliquid impedit explicabo illo architecto exercitationem possimus nihil blanditiis pariatur minus, nobis cupiditate. Modi itaque deleniti accusantium!
+            </p>
+        </div>
     </section>
+
+    <h2 class="texto-formatado">TESTE = FORA DA SECTION</h2>
+
+    <div>
+        <h3 class="texto-formatado">Novo título</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure laudantium assumenda error in reprehenderit eius eaque accusamus quos numquam modi repellat dolor nam iste minus nemo itaque, aliquid vel natus.
+        </p>
+    </div>
 </body>
 
 </html>
