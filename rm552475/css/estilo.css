@@ -8,3 +8,22 @@
     Exercício
     Passar o código do FIGMA para este arquivo, respeitando os seletores
 **/
+/*
+h1
+*/
+#meu-titulo{
+
+    width: 467px;    
+    height: 250px;    
+    background-color: #d9d9d9;
+    float: left;
+
+    font-size: 80px;
+    text-align: center;
+    font-style: bold;
+
+    padding: 75px 0 10px 0;
+}
+#sobre{
+    clear: left;/* */
+}
