@@ -24,3 +24,30 @@ h1
     clear: left;
 }
 
+.menu {
+    float: right;
+}
+.menu ul{
+  list-style: none;
+}
+
+.menu ul li{
+  display: inline-block;
+  padding: 0px 10px;
+  
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: #000000;
+  background-color: #FF4043;
+  font-size: 50px;
+  font-style: bold;
+  width: 224px;
+  height: 250px;
+  display: inline-block;
+  text-align: center;
+  padding: 90px 9px;
+  
+}
+
