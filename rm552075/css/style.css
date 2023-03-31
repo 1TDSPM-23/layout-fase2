@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#meu-titulo{
+    width: 467px;
+    height: 250px;
+    background-color: #bebbbb;
+    float: left;
+
+    font-size: 80px;
+    text-align: center;
+    font-style: bold;
+    
+    padding: 75px 10px;
+}
+
+#sobre{
+    clear: left;
+}
