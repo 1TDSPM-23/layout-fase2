@@ -2,4 +2,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
+
+/* 
+h1
+ */
+
+#meu-titulo{
+  width: 467px;
+  height: 250px;
+  background-color: #FF4043;
+  float: left;
+  font-size: 80px;
+  text-align: center;
+  font-style: bold;
+  padding: 75px 0px 10px 0px;
+}
+
+#sobre{
+    clear: left;
+}
+
