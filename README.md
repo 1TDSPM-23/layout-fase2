@@ -1,2 +1,2 @@
-# exemplo-layout-1
-Exemplo de um layout HTML.
+## Exemplo de um layout HTML.
+
