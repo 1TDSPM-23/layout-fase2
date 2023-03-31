@@ -16,8 +16,30 @@
     background-color: #d9d9d9;
     
     padding: 70px 0 0 10px ; /* top-bottom & right-left*/
-}       
-
+}  
+    
+.menu {
+    float: right;
+}     
+.menu ul{
+   list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    background-color: #d9d9d9;
+    font-style: bold;
+    font-size: 50px;
+    width: 224px;
+    height: 250px;
+    display: inline-block;
+    text-align: center;
+    padding: 90px 0 0 9px;
+}
 #sobre{
     clear: left; /*fala para o elemento não ocupar o espço aberto acima dele */
 }
