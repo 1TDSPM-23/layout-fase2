@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+    Exercício
+    Passar o código do FIGMA para este arquivo, respeitando os seletores
+**/
+
+/*
+h1
+*/
+
+#meu-titulo {
+    width: 467px;
+    height: 250px;
+    background-color: #d9d9d9;
+    float: left;
+    font-size: 80px;
+    text-align: center;
+    font-style: bold;
+
+    padding: 80px 0 10px 0; /* margem dentro do elemento, entre o elemento e a borda dele - ordem: top, right, bottom, left (no caso top-bottom e right-left) */
+
+}
+
+#sobre{
+    clear: left; 
+    
+}
+
+
+
+
+
+
+
+
+
+
