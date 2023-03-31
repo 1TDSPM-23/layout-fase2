@@ -16,7 +16,24 @@
 
     padding: 75px 0 10px 0;
 }
+.menu ul{
+    float: right;
+    list-style: none;
 
+}
+.menu ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #000;
+    background-color: #d9d9d9;
+    font-size: 50px;
+    font-style: bold;
+    
+    display: inline-block;
+}
 #sobre{
     clear: left;
 }
