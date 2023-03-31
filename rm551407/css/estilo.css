@@ -1,9 +1,23 @@
-#meu-titulo {
-    color: rgb(0, 21, 255);
-}
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/* h1 */
+#meu-titulo {
+    color: rgb(0, 0, 0);
+    height: 239px; /* altura */
+    width: 463px; /* largura da caixa */
+    border-radius: 0px;
+    padding: 62px 8px 62px 8px;
+    float: left; /*  */
+    font-size: 80px;
+    text-align: center;
+    background-color: #d9d9d9;
+    
+    padding: 70px 0 0 10px ; /* top-bottom & right-left*/
+}       
+
+#sobre{
+    clear: left; /*fala para o elemento não ocupar o espço aberto acima dele */
 }
