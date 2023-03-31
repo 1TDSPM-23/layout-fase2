@@ -1,0 +1,22 @@
+#menu-titulo{
+    width: 467px;
+    height: 250px;
+    background-color: aliceblue;
+    float: left;
+    
+    font-size: 85px;
+    text-align: center;
+    font-style: bold;
+
+    padding: 65px 0 65px 9px;
+}
+
+#sobre{
+    clear: left;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    list-style: none;
+}
