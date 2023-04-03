@@ -1,51 +1,52 @@
-    <!---  Emmet para criar umas lista dentro de uma div
-    div>ul>li*4>a[href="#"]{TEXTO} -->
-    
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout Basico</title>
-    
+    <title>Layout Básico</title>
+
     <link rel="stylesheet" href="./css/estilo.css">
-
-    <!---<style>
-                /* seletor{
-                    propriedade: valor
-                }
-                */
-            
-                  /* seleção hierarquica
-                 section > h1{
-                    color: green
-                }
-                ID = utilizamos # para identificar esse tipo de seletor
-                */
-                /* Uma classe pode ser um seletor para varios tipos de tags*/    
-    </style> -->
+    
 </head>
-<body>
-    <header>    
-        <!-- <h1 class="texto-formatado" id ="meu-titulo">MEU SITE</h1> -->
-        <h1 id ="meu-titulo">MEU SITE</h1>
-    <nav> 
-        <ul>
-            <li id="GAMES"><a href="sobre">GAMES</a></li>
-            <li><a href="#">MOBILE</a></li>
-            <li><a href="#">TECH</a></li>     
-        </ul>
-    </nav> 
 
+<body>
+
+    <header>
+    
+        <h1 id="meu-titulo">MEU SITE</h1>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#">GAMES</a></li>
+                <li><a href="#">MOBILE</a></li>
+                <li><a href="#">TECH</a></li>
+            </ul>
+        </nav>
 
     </header>
 
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit commodi et impedit odio repellat similique quos ratione iure perspiciatis unde.</p>
+    <section id="conteudo">
+        <div>
+            <h2>GAMES</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat illo porro, debitis autem culpa aut perferendis magni nobis itaque! Nulla.</p>
+        </div>
+        <div>
+            <h2>MOBILE</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci suscipit veniam pariatur porro corrupti? Minus ea voluptates eligendi officiis quisquam!</p>
+        </div>
+        <div>
+            <h2>TECH</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ut tempore ex! Aspernatur atque odit obcaecati corporis consectetur eveniet in.</p>
+        </div>
     </section>
 
+
+    <footer id="rodape">
+        <p>Copyright &copy Todos os direitos reservados - 2023</p>
+    </footer>
+
 </body>
+
 </html>
