@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 #meu-titulo{
     width: 467px;
     height: 250px;
@@ -44,6 +45,7 @@
 }
 
 
-#sobre{
+#conteudo{
     clear: left;
 }
+
