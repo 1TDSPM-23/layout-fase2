@@ -4,54 +4,28 @@
     box-sizing: border-box;
 }
 
-/*
-    Exercício
-    Passar o código do FIGMA para este arquivo, respeitando os seletores
-**/
 
-/*
-h1
-*/
-#meu-titulo{
-    width: 467px;
-    height: 250px;
-    background-color: #d9d9d9;
-    float: left;
-    
-    font-size: 80px;
-    text-align: center;
-    font-style: bold;
 
-    padding: 75px 0 10px 0;
 
-}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: baseline; */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* flex-direction: column;*/
+}    
 
-.menu{
-    float: right;
-}
-
-.menu ul{
-    list-style: none;
-}
-
-.menu ul li{
-    display: inline-block;
-    padding: 0 10px;
-}
-
-.menu ul li a{
-    text-decoration: none;
-    color: #000000;
-    background-color: #d9d9d9;
-    font-size: 50px;
-    font-style: bold;
-    text-align: center;
-    width: 224px;
-    height: 250px;
-    display: inline-block;
-    padding: 90px 9px;
-}
-
-#conteudo{
-    clear: left;
-}
+/* Execício
+Transformar os estilos do cabeçalho de css tradicional em Flexbox. */
