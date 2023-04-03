@@ -47,10 +47,11 @@ h1
     width: 224px;
     height: 250px;
     display: inline-block;
-    padding: 90px 9px ;
+    padding: 90px 9px;
+    text-align: center;
 }
 
-#sobre{
+#conteudo{
     clear: left; 
     
 }
