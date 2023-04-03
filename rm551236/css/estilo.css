@@ -40,11 +40,8 @@ list-style: none;
     padding: 90x 9px;
 }
 
-#sobre{
-clear: left;
+#conteudo{
+    clear: left;
 }
-/*
-    Exercício
-    Passar o código do FIGMA para este arquivo, respeitando os seletores
-**/
+
 
