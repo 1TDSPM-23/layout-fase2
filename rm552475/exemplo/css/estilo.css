@@ -4,56 +4,27 @@
     box-sizing: border-box;
 }
 
-/*
-    Exercício
-    Passar o código do FIGMA para este arquivo, respeitando os seletores
-**/
-/*
-h1
-*/
-#meu-titulo{
-
-    width: 467px;    
-    height: 250px;    
-    background-color: #d9d9d9;
-    float: left;
-
-    font-size: 80px;
-    text-align: center;
-    font-style: bold;
-
-    padding: 75px 0 10px 0;
-}
-
-.menu {
-    
-    float: right;
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    /*
+    align-items: stretch;
+    align-items: center;
+    align-items: flex-end;
+    align-items: flex-start;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    flex-direction: column;
+    flex-direction: column-reverse;*/
 
 }
-.menu ul{
-    list-style: none;
-}
-.menu ul li{
-
-    display: inline-block;
-    padding: 0 10px;
-
-}
-
-.menu ul li a{
-    text-decoration: none;
-    color: #000000;
-    background-color: #d9d9d9;
-    font-size: 50px;
-    font-style: bold;
-    width: 224px;
-    height: 250px;
-    display: inline-block;
-    text-align: center;
-    padding: 90px 0;
-
-}
-
-#conteudo{
-    clear: left;/* */
-}
+/*Exercicio 
+transforme os estilos do cabecalho de css tradicional em flexbox*/
+/*desafio utilizar o flex-grow para os flex-itens*/
