@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    border: 2px solid #ff0000;
+    padding: 0 10px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    /* 
+    align-items: stretch;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center
+    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: row-reverse; 
+    flex-direction: column;
+    flex-direction: column-reverse;
+    */
+}
+
+/* Exercício 
+Transformar os estilos do cabeçalho de CSS tradicional em Flexbox. 
+
+Desafio:
+Utilizar o flex-grow para os flex-itens
+
+*/
+
+
+
+
