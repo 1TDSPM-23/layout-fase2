@@ -29,6 +29,31 @@ body{
 }
 
 .cabecalho nav{
-    background-color: #d9d9d9;
+    height: 250px;
     flex-basis: 800px;
+}
+
+.cabecalho nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 250px;
+    width: 100%;
+}
+
+.cabecalho nav ul li{
+    flex-grow: 1;
+}
+
+.cabecalho nav ul li a{
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    background-color: #d9d9d9;
+    width: 200px;
+    height: 250px;
+    padding-top: 35%;
+    font-size: 40px;
 }
