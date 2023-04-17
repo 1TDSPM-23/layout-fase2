@@ -9,6 +9,7 @@ html{
 }
  /* ================================= */
 @import url("./cabecalho.css");
+@import url("./conteudo.css");
 /* ================================= */
 
 .tit-sec{
